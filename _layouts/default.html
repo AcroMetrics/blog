@@ -6,9 +6,10 @@
 	{% include meta.html %}
 
 	<!--[if lt IE 9]>
-	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -47,9 +48,11 @@
 		<div class="col-md-4">
 			<div class="page-header">
 				<h1>
-					AcroMetrics<br><small>Finance for Everyone</small>
+					{{ site.name }}<br><small>{{ site.description }}</small>
 				</h1>
+				{% include svg-icons.html %}
 			</div>
+
 		</div>
 		<div class="col-md-8">
 			<div class="row">
@@ -60,17 +63,10 @@
 		</div>
 	</div>
 </div>
-	<div class="wrapper-footer">
-	  <div class="container">
-		<footer class="footer">
-		  {% include svg-icons.html %}
-		</footer>
-	  </div>
-	</div>
 
 	{% include analytics.html %}
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+	<script src="{{ site.baseurl }}/js/scripts.js"></script>
   </body>
 </html>
