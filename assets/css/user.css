@@ -1,0 +1,166 @@
+header {
+	height: 400px;
+}
+
+/*.navbar {
+	height:48px; !important
+	min-height:48px; !important
+}*/
+
+.navbar-nav > li > a {
+	font-size:16px;
+}
+/*
+.navbar-default .navbar-nav > li > a {
+	font-weight:bold;
+	color:#fff;
+	font-size:18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color:#fff;
+	background-color:rgba(0,0,0,0.6);
+	font-weight:bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color:#fff;
+	background-color:rgba(0,0,0,0.6);
+	font-weight:bold;
+}
+
+.navbar-toggle {
+	background-color:#fff !important;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.4);
+	margin-top:20px;
+}
+
+nav.navbar.navbar-default {
+	background-color:#282d32;
+	box-shadow:none;
+}
+
+.navbar-brand {
+	height:50px;
+	font-size:18px;
+	color:#fff !important;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+	margin-top:10px; !important
+	margin-bottom:10px; !important
+}*/
+
+.navbar-brand span.text-title {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+@media (max-width:767px) {
+	.navbar-brand span.text-title {
+		display:none;
+	}
+}
+
+.navbar-brand .glyphicon {
+	display:inline-block;
+	font-size:36px;
+	color:#fff;
+	vertical-align:middle;
+	margin-right:20px;
+	position:relative;
+	top:-2px;
+}
+
+@media (min-width:768px) {
+	.navbar-nav li {
+		margin-left:10px;
+	}
+}
+
+.categories {
+	text-align:center !important;
+	margin-bottom:20px;
+	border-bottom:1px solid #e4e4e4;
+	padding:10px;
+}
+
+.categories li {
+	display:inline-block !important;
+	float:none;
+}
+
+.post-body {
+	margin-top:30px;
+	font-size:16px;
+}
+
+@media (min-width:992px) {
+	.post-title {
+		text-align:right;
+		padding-right:30px;
+	}
+}
+
+.post-title .author {
+	text-transform:uppercase;
+}
+
+.post-body figure {
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.post-title .author span {
+	margin-left:5px;
+}
+
+.post-title h1 {
+	font-weight:bold;
+	margin-top:30px;
+}
+
+@media (max-width:767px) {
+	.post-title h1 {
+		margin-top:20px;
+		font-size:32px;
+		margin-bottom:10px;
+	}
+}
+
+footer {
+	padding:20px;
+	text-align:center;
+	background-color:#282d32;
+	color:#fff;
+}
+
+footer h5 {
+	color:inherit;
+}
+
+div.container.post {
+	margin-bottom:50px;
+}
+
+a.post-link {
+	color: #444444;
+}
+
+.heading-bio {
+	text-align: center;
+}
+
+.img-bio {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.bio-img-wrap {
+	height: 160px;
+}
+
