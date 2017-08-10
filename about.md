@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-header-img: beach.jpg
+header-img: business.jpg
 ---
 
 Big Data, what does that really mean? We see that term strewn throughout our modern technology
@@ -14,43 +14,6 @@ Here at AcroMetrics, we want to bring the great benefits of Big Data down the re
 We realize that all the data we need is already publically available, but instead of it being properly
 curated, it is dispersed like a vast ocean. We strive to provide amateur investors tools and techniques
 to help them navigate this ‘ocean of data’ so they can make more informed trading decisions.
-
-<!--## Our Team
-
-Short intro
-
-<div class="row">
-	<div class="col-md-6">
-		<div class="col-md-12 bio-img-wrap">
-			<img src="{{ site.baseurl }}/assets/img/bios/ggold_headshot_200.png" class="img-circle img-bio">
-		</div>
-		<h4 class="heading-bio">Nicholas Carey</h4>
-		<p>This is the bio. asldflkasdflkasdkl Lorem ipsum dolor sit amet.</p>
-	</div>
-	<div class="col-md-6">
-		<div class="col-md-12 bio-img-wrap">
-			<img src="{{ site.baseurl }}/assets/img/bios/ggold_headshot_200.png" class="img-circle img-bio">
-		</div>
-		<h4 class="heading-bio">Jordan Henault</h4>
-		<p>This is the bio. asldflkasdflkasdkl Lorem ipsum dolor sit amet.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="col-md-6">
-		<div class="col-md-12 bio-img-wrap">
-			<img src="{{ site.baseurl }}/assets/img/bios/ggold_headshot_200.png" class="img-circle img-bio">
-		</div>
-		<h4 class="heading-bio">Galen Gold</h4>
-		<p>Galen Gold is an Electrical Engineering student at Rensselaer Polytechnic Institute. He has worked in the past analyzing semiconductor manufacturing processes for defects and automating tests for Integrated Circuits. He is also an amateur radio operator and a proponent of software freedom.</p>
-	</div>
-	<div class="col-md-6">
-		<div class="col-md-12 bio-img-wrap">
-			<img src="{{ site.baseurl }}/assets/img/bios/ggold_headshot_200.png" class="img-circle img-bio">
-		</div>
-		<h4 class="heading-bio">Christian Assimus</h4>
-		<p>This is the bio. asldflkasdflkasdkl Lorem ipsum dolor sit amet.</p>
-	</div>
-</div> -->
 
 ## Contact Us
 
